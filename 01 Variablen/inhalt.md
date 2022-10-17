@@ -28,3 +28,4 @@ Wir entwickeln einen Superheldennamensgenerator.
   * wartet solange bis `Enter` gedrückt wird
   * Auskommentieren mit `#`
   * Jedes Mal, wenn ein neues Konzept erlernt wird, dieses kommentieren
+  * 
