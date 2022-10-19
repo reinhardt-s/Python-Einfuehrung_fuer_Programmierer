@@ -13,11 +13,12 @@ Was gibt folgende Zeile Code aus?
 ## Frage 2
 ___
 Welchen Datentyp hat `val`?
-`val = int("6") / int("2")`
+`val = int("6") / int("2")`  
+
 [ ] int  
 [ ] float 
 [ ] str  
-[ ] bool
+[ ] bool  
 
 ## Frage 3
 ___
