@@ -16,7 +16,7 @@ Welchen Datentyp hat `val`?
 `val = int("6") / int("2")`  
 
 [ ] int  
-[ ] float 
+[ ] float  
 [ ] str  
 [ ] bool  
 
