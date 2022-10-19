@@ -1,5 +1,5 @@
 primt("Python ist auch eine Schlange")
 print(Python ist auch eine Schlange")
 print(Python ist auch eine Schlange)
-print("Python ist auch + eine Schlange")
+print("Python ist auch" + " eine Schlange")
  print("Python ist auch eine Schlange")
