@@ -1,5 +1,5 @@
-# Tausche die Werte von val_1 und val_2,
-# sodass val_1 den ursprünglichen Wert von val_2 enthält
+# Tausche die Werte von val1 und val2,
+# sodass val1 den ursprünglichen Wert von val2 enthält
 # und umgekehrt
 
 val1 = input("Wert 1: ")
