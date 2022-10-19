@@ -19,7 +19,7 @@ Welchen Datentyp hat `val`?
 [ ] float  
 [ ] str  
 [ ] bool  
-
+ 
 ## Frage 3
 ___
 Welche dieser Codes produziert einen Fehler?
