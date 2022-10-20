@@ -3,7 +3,7 @@
 
 child_till_age = 12 # Maximales Alter für Rabatt
 discount = 0.25  # 25 % Rabatt für Kinder
-cost = 15 # Kosten pro Ticket
+cost = 15  # Kosten pro Ticket
 
 # Alter der Kund*in
 age = int(input("Wie alt bist du?\n"))

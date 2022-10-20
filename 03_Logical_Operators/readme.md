@@ -4,7 +4,9 @@
 * Conditional Operators
 
 ## Was wir programmieren
-Ein Textadventure "Baboon Island"
+* Ein Textadventure "Baboon Island" !
+* Einen Kaffeeautomaten
+* Schaltjahrermittler
 
 
 ## Ablauf
@@ -39,10 +41,20 @@ Ein Textadventure "Baboon Island"
      | `<=` | Kleiner-Gleich |
      | `>=` | Größer-Gleich  |
 
-* Kaffeautomat challenge
+* Kaffeeautomat challenge
+  * Flowchart
 * Modulo Operator
   * %
   * Gibt an ob eine Division einen Rest hat oder nicht
   * `print(9%2)`
   * Gerade Zahlen können restlos durch 2 geteilt werden
   * challenge 02_even_modulo
+* nested if
+  * werden nacheinander abgearbeitet sofern die obere Bedingung wahr ist
+* wie werden if auf gleicher Ebene Abgehandelt?
+* elif
+  * challenge 03_coffee
+    * Flowchart
+* Challenge 04_leapyear
+* Challenge 05_pizza_order
+* Logical Operators
