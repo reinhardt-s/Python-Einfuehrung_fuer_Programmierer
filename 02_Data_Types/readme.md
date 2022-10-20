@@ -7,8 +7,8 @@
 * f-Strings
 
 ## Was wir programmieren
-BMI-Rechner
-Mehrwertsteuer-Rechner
+BMI-Rechner  
+Trinkgeld-Rechner  
 
 ## Ablauf
 * `print(len(1234))` - error
@@ -45,3 +45,5 @@ Mehrwertsteuer-Rechner
       * Angabe der Nachkommastellen
   * += -= etc
   * f-Strings
+  * challenge 06 tip calculator
+  * `"{:.2f}".format(bill_slice)`
