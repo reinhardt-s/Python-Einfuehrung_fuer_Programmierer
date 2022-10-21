@@ -19,3 +19,8 @@ else:
 
 print(9%2)
 2+2+2+2+1
+
+val2 = 10
+val1 = 15
+if (val2 > 5 and val2 < 10) or (val1 < 10 or val2 > 5):
+    print(True)

@@ -32,20 +32,20 @@
     * condition ergibt immer `True` oder `False`
 * Beispiel Ticketverkauf
 * Operatoren
-  *  | Operator   | Bedeutung      |
-     -----|----------------
-     | `<` | Kleiner        |
-     | `>` | Größer         |
-     | `==` | Gleich         |
-     | `!=` | Ungleich       |
-     | `<=` | Kleiner-Gleich |
-     | `>=` | Größer-Gleich  |
+  *  | Operator | Bedeutung      |
+     ----------|----------------
+     | `<`      | Kleiner        |
+     | `>`      | Größer         |
+     | `==`| Gleich         |
+     | `!=`| Ungleich       |
+     | `<=`     | Kleiner-Gleich |
+     | `>=`     | Größer-Gleich  |
 
 * Kaffeeautomat challenge
   * Flowchart
 * Modulo Operator
   * %
-  * Gibt an ob eine Division einen Rest hat oder nicht
+  * Gibt an, ob eine Division einen Rest hat oder nicht
   * `print(9%2)`
   * Gerade Zahlen können restlos durch 2 geteilt werden
   * challenge 02_even_modulo
@@ -58,3 +58,22 @@
 * Challenge 04_leapyear
 * Challenge 05_pizza_order
 * Logical Operators
+  * `and` - Verknüpft Bedingungen
+    * ```python
+        if pizza_size == "M" and extra_cheese == "J":
+          cost = cost_m + cost_cheese
+        else
+            ...
+      ```
+  * `or` Oder Bedingung
+    * ```python
+      if add_pepperoni == "Y":
+        if pizza_size == "M" or pizza_size == "L":
+          cost += 3
+      ```
+  * `not` Negierende Bedingung
+    * ```python
+      if add_pepperoni == "Y":
+        if not pizza_size == "S":
+          cost += 3
+      ```
