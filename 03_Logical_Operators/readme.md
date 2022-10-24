@@ -77,3 +77,9 @@
         if not pizza_size == "S":
           cost += 3
       ```
+* Challenge 6 Quiz
+* Challenge 7 Yummie Bear QA
+* Put it all together
+  * Escape ' `\'`
+  * Zeilenlänge: 120
+  * Challenge 08
