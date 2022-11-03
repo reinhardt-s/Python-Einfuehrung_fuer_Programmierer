@@ -11,6 +11,7 @@ Maze Runner
    * https://docs.python.org/3/library/functions.html
    * an hand von print und len funktionen vorstellen
    * abdriften zu eigene funktionen erstellen
+<<<<<<< HEAD
    * main.py dazu öffnen
    * zeigen wie man funktionen aufruft
  * Arbeiten mit Funktionen
@@ -33,3 +34,6 @@ Maze Runner
    * While
      * so lange eine bestimmte kondition wahr ist
      * challenge 4 maze loop (zick zack)
+=======
+   * 
+>>>>>>> origin/master
