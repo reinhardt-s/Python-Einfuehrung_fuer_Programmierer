@@ -26,3 +26,12 @@
 * Klassen in Python erstellen
 * Getter und Setter
 * Methoden in Python
+* https://docs.python.org/3/library/__main__.html
+* https://docs.python.org/3/reference/datamodel.html?highlight=__init#object.__init__
+* https://docs.python.org/3/reference/datamodel.html?highlight=__init#object.__del__
+* https://docs.python.org/3/glossary.html#term-method
+* https://docs.python.org/3/glossary.html#term-function
+* https://docs.python.org/3/tutorial/inputoutput.html
+* https://docs.python.org/3/tutorial/inputoutput.html#formatted-string-literals
+* https://docs.python.org/3/howto/logging.html?highlight=format%20specifier
+* https://docs.python.org/3/library/string.html#format-specification-mini-language
