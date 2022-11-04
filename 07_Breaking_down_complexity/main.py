@@ -1,3 +1,4 @@
-from calendar import TextCalendar
-cal = TextCalendar()
-print(cal.formatmonth(2022, 11))
+word = "Billy"
+
+for letter in word:
+    print(letter)

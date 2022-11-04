@@ -1,20 +1,41 @@
+# Setze Task 5 - 6 um
 from data import get_movie_list
 import random
 movies = get_movie_list()
 already_guessed = []
-# TODO-1 Wähle einen zufälligen Film aus der Liste movies und weise diesen der Variable chosen_movie zu
-chosen_movie = random.choice(movies)
 
-# TODO-2 Lass die User*in einen Buchstaben raten. Speichere die Eingabe im Lower-Case in der Variable user_guess
+chosen_movie = random.choice(movies)
+chosen_movie_length = len(chosen_movie)
+# Task 5 Erstelle eine Liste mit "_" korrespondierend zu der Anzahl an Buchstaben
+# Der Unterstrich soll nur gesetzt werden, wenn es sich nicht, um eines der erlaubten Symbole (allowed_symbols) handelt
+# Diese Symbole sollen direkt, statt dem Unterstrich angezeigt werden:
+# " ", ":", "-", "\'", "ä", "ö", "ü", "ß", "&", "!", "?"
+
+# covered_movie = ["_" for letter in chosen_movie]
+# oder
+# covered_movie = ["_"] * chosen_movie_length
+
+covered_movie = []
+allowed_symbols = [" ", ":", "-", "\'", "ä", "ö", "ü", "ß", "&", "!", "?"]
+for pos in range(chosen_movie_length):
+    if chosen_movie[pos] in allowed_symbols:
+        covered_movie.append(chosen_movie[pos])
+    else:
+        covered_movie.append("_")
+
+print(chosen_movie)
+
 user_guess = input("Wähle einen Buchstaben: ").lower()
 
-# TODO-3 Füge den Buchstaben einer neuen Liste (already_guessed) von Buchstaben die bereits geraten wurden hinzu.
+
 if user_guess not in already_guessed:
     already_guessed.append(user_guess)
 
-# TODO-4 Prüfe, ob der Buchstabe im Film vorkommt
-if user_guess in chosen_movie.lower():
-    print("Buchstabe ist Teil des Titels")
-else:
-    print("Buchstabe ist nicht Teil des Titels")
+# Task 6 tausche bei einem Treffer den entsprechenden Unterstrich durch den passenden Buchstaben aus
+for pos in range(0, chosen_movie_length):
+    if chosen_movie[pos].lower() == user_guess:
+        covered_movie[pos] = chosen_movie[pos]
+    else:
+        print("Wrong")
 
+print("".join(covered_movie))

@@ -4,7 +4,7 @@ movies = []
 
 
 def load_movies():
-    file = open("../movies.txt", "r")
+    file = open(file="../movies.txt", mode="r", encoding="utf-8")
     for movie in file:
         movies.append(movie[:-1])
 

@@ -16,7 +16,9 @@ Guess the film
   * zeigen des beispiel-flowcharts
 * GTF
   * Schritt 1 Einen zufälligen Film auswählen und die Antwort prüfen
-    * mainpy -> schlüsselwort `in` 
+    * main.py -> schlüsselwort `in` auch auf string ebene
     * Challenge 1 GTF1
   * Schritt 2
-    * Challenge 2GTF 2
+    * Challenge 2 GTF 2
+  * Schritt 3
+    * Challenge 3 GTF 3
