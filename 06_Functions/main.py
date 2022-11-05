@@ -23,8 +23,8 @@
 def my_function():
     print("my_function aufgerufen")
 
-# die function muss aufgerufen werden, klingt logisch oder?
-# aufruf erfolgt durch schreiben der functionsnamen und der benötigten argumente
+# die funktion muss aufgerufen werden, klingt logisch oder?
+# aufruf erfolgt durch schreiben der funktionsnamen und der benötigten argumente
 # da unsere function keine benötigt, bleibt die klammer leer
 
 # blueprint, wie eine funktion ausieht
