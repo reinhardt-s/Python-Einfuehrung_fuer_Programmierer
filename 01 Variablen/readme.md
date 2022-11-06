@@ -1,6 +1,7 @@
 ## Themen 
 
-* (Kurze Einführung in github)
+* Installation von PyCharm
+  * Jede Challenge ein neues Projekt
 * Konsolenausgabe
 * Kommentare
 * Debugging

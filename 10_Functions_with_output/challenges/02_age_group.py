@@ -24,6 +24,7 @@ generations = {}
 
 
 def get_generation(year):
+    """Gibt den Namen der Generation aus zu der das eingegebene Jahr (year) gehört"""
     if 1901 <= year <= 1924:
         return "01 The Greatest Generation"
     elif 1925 <= year <= 1945:
