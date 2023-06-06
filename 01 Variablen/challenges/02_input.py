@@ -7,6 +7,7 @@ val2 = input("Wert 2: ")
 ###################################################
 # Schreibe deinen Code unter dieser Zeile
 
+# val1, val2 = val2, val1
 
 # Schreibe deinen Code über dieser Zeile
 ###################################################
