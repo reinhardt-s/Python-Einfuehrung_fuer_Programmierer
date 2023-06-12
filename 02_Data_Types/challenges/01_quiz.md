@@ -40,7 +40,7 @@ print(street_name[4] + street_name[7])
 "Stresemannstraße"
 "Stresemannstraße"
 ```
-[ ] eR  
-[ ] yo  
+[ ] eß  
+[ ] sa  
 [ ] en  
 
