@@ -10,22 +10,25 @@
 year = int(input("Welches Jahr möchtest du prüfen?\n"))
 # Dein Code nach dieser Zeile
 
-is_div_by_four = year % 4 == 0
-is_div_by_hundred = year % 100 == 0
-is_div_by_400 = year % 400 == 0
+is_leap_year = year % 4 == 0 and (year % 100 != 0 or year % 400 == 0)
+print(f"Das Jahr {year} ist {'ein' if is_leap_year else 'kein'} Schaltjahr")
 
-is_leap_year = False
-answer = "kein"
-
-
-if is_div_by_four:
-    if is_div_by_hundred:
-        if is_div_by_400:
-            is_leap_year = True
-    else:
-        is_leap_year = True
-
-if is_leap_year:
-    answer = "ein"
-
-print(f"Das Jahr {year} ist {answer} Schaltjahr")
+# is_div_by_four = year % 4 == 0
+# is_div_by_hundred = year % 100 == 0
+# is_div_by_400 = year % 400 == 0
+# 
+# is_leap_year = False
+# answer = "kein"
+# 
+# 
+# if is_div_by_four:
+#     if is_div_by_hundred:
+#         if is_div_by_400:
+#             is_leap_year = True
+#     else:
+#         is_leap_year = True
+# 
+# if is_leap_year:
+#     answer = "ein"
+# 
+# print(f"Das Jahr {year} ist {answer} Schaltjahr")
