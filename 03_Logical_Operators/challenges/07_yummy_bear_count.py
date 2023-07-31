@@ -35,7 +35,7 @@ count = len(bag)
 
 print(f"Weiß: {w}\nOrange: {o}\nGelb: {y}\nRot: {r}\nPurpur: {p}\nGelb: {g}\nGesamt: {count}")
 
-if w < 10 or o < 10 or y < 10 or r < 10 or p < 10 and g < 10:
+if w < 10 or o < 10 or y < 10 or r < 10 or p < 10 or g < 10:
     print("Von mindestens einer Farbe sind weniger als 10 Yummie-Bears in der Tüte")
 elif r+p > 30:
     print("Rote + purpurene Yummie-Bears sind mehr als 30")
