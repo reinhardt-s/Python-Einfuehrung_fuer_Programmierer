@@ -4,8 +4,8 @@
 * Code Blocks
 
 ## Was wir programmieren
-Durchschnittliche Schrittzahl
-Password Generator
+Durchschnittliche Schrittzahl  
+Password Generator  
 
 ## Ablauf
 * For Loop
